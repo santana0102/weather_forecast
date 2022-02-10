@@ -1,7 +1,3 @@
-<?php
-
-?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -16,6 +12,9 @@
 
 <body>
     <div class="center">
+        <?php
+            require("includes/api.php");
+        ?>
         <h1>Type the city informations to get the current weather forecast.</h1>
         <form action="/pages/loginbd.php" method="POST">
             <div class="txt_field">
